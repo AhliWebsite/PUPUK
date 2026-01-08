@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pupuk Masa Depan - Inovasi Pertanian Berkelanjutan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            color: #333;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-bg {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        .section-bg img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .content {
+            padding: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature {
+            flex: 1 1 300px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .feature img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .testimonials {
+            background: #e8f5e8;
+            padding: 40px;
+            text-align: center;
+        }
+        .testimonial {
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2em; }
+            .features { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Pupuk Masa Depan</h2>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#produk">Produk</a>
+            <a href="#manfaat">Manfaat</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Revolusi Pupuk Pertanian dengan Teknologi AI</h1>
+            <p>Tingkatkan hasil panen Anda dengan pupuk cerdas yang dirancang untuk masa depan. Efisien, ramah lingkungan, dan menguntungkan bagi petani dan investor.</p>
+            <a href="#produk" style="background: #4CAF50; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold;">Pelajari Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="section-bg">
+        <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Ladang hijau dengan teknologi">
+        <div class="content">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah pionir dalam inovasi pupuk pertanian yang menggabungkan kecerdasan buatan (AI) untuk memprediksi kebutuhan tanah secara real-time. Pupuk kami tidak hanya meningkatkan produktivitas, tetapi juga mengurangi dampak lingkungan, menjadikannya pilihan ideal untuk pertanian berkelanjutan.</p>
+        </div>
+    </section>
+
+    <section id="produk" class="section-bg">
+        <img src="https://images.unsplash.com/photo-1592982375567-7b3930a7a9e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Pupuk canggih">
+        <div class="content">
+            <h2>Produk Unggulan Kami</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pupuk organik">
+                    <h3>Pupuk Organik AI-Enhanced</h3>
+                    <p>Diformulasikan dengan AI untuk nutrisi optimal, meningkatkan hasil panen hingga 40% tanpa bahan kimia berbahaya.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Drone pertanian">
+                    <h3>Sistem Distribusi Drone</h3>
+                    <p>Gunakan drone untuk penyebaran pupuk presisi, menghemat waktu dan biaya sambil meminimalkan limbah.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Analisis data">
+                    <h3>Platform Analitik Data</h3>
+                    <p>Pantau kesehatan tanah dan tanaman secara real-time dengan aplikasi kami, memberikan wawasan untuk keputusan investasi yang cerdas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="manfaat" class="section-bg">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Petani bahagia">
+        <div class="content">
+            <h2>Manfaat untuk Petani dan Investor</h2>
+            <p><strong>Untuk Petani:</strong> Pupuk kami mengurangi biaya input hingga 30%, meningkatkan keberlanjutan, dan memastikan panen yang lebih baik di era perubahan iklim.</p>
+            <p><strong>Untuk Investor:</strong> Dengan teknologi masa depan, produk kami menawarkan ROI tinggi melalui efisiensi dan skalabilitas global. Bergabunglah dalam revolusi pertanian hijau.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimoni</h2>
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Petani" style="border-radius: 50%; width: 100px; height: 100px;">
+            <p>"Pupuk ini mengubah ladang saya! Hasil panen naik drastis, dan saya merasa seperti menggunakan teknologi masa depan." - Budi, Petani Jawa</p>
+        </div>
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Investor" style="border-radius: 50%; width: 100px; height: 100px;">
+            <p>"Investasi terbaik saya. Teknologi AI mereka memberikan data akurat untuk keputusan yang menguntungkan." - Sari, Investor Pertanian</p>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <p>&copy; 2023 Pupuk Masa Depan. Hubungi kami di info@pupukmasadepan.com | +62 123 456 789</p>
+    </footer>
+</body>
+</html>
